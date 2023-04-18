@@ -35,7 +35,19 @@
 
     @media screen and (max-width: 599.98px) {}
 
-    @media screen and (max-width: 399.98px) {
+    @media screen and (max-width: 425px) {
+      .mobile-header-logo {
+		width: 170px !important;
+	  }
+
+	  .mobile-main-padding {
+		padding-top: 280px !important;
+	  }
+
+	  .mobile-main-btn-padding {
+		padding-right: 16px !important;
+	  }
+
       .mobile-padding {
         padding-right: 10px !important;
         padding-left: 10px !important;
@@ -132,7 +144,7 @@
       <![endif]-->
 
       <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
-        style="color: #FFF;font-family: 'Poppins',sans-serif, Arial, Helvetica;background-color: #00002E;Margin: 0;padding: 0;width: 100%;max-width: 600px;"
+        style="color: #FFF;font-family: 'Open Sans',sans-serif, Arial, Helvetica;background-color: #00002E;Margin: 0;padding: 0;width: 100%;max-width: 600px;"
         >
 			<!-- Hero -->
 			<tr style="background-image: url(https://github.com/aau8/formacar-html-mail/blob/main/img/main.png?raw=true);background-position: center;background-size: cover;background-repeat: no-repeat;">
@@ -141,15 +153,15 @@
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 						<tr>
 							<td style="padding: 30px 0;text-align: center;">
-								<a href="#" target="_blank">
-									<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/logo.png?raw=true" alt="Formacar logo" border="0" width="208">
+								<a class="mobile-header-logo" href="#" target="_blank" style="display:block;width:208px">
+									<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/logo.png?raw=true" alt="Formacar logo" border="0" width="208" height="120" style="width:100%;height:auto;">
 								</a>
 							</td>
 						</tr>
 					</table>
 					<!-- End Logo -->
 					<!-- Main -->
-					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 390px 0 60px 0;">
+					<table class="mobile-main-padding" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 390px 0 60px 0;">
 						<tr>
 							<td>
 								<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
@@ -159,25 +171,28 @@
 										</td>
 									</tr>
 									<tr>
-										<td style="padding: 10px 0 0 0;">
+										<!-- <td style="padding: 10px 0 0 0;">
 											<h1 style="Margin: 0; font-size: 56px;font-weight: 700;text-align: center;color: #1CB7FB;line-height: 1;">PRE-BETA</h1>
+										</td> -->
+										<td style="padding: 10px 0 0 0;">
+											<img src="img/title-main.png" alt="PRE-BETA" width="282" height="39">
 										</td>
 									</tr>
 								</table>
 							</td>
 						</tr>
 						<tr>
-							<td style="padding: 30px 0 0 0;">
+							<td style="padding: 30px 30px 0;">
 								<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 									<tr>
-										<td style="padding: 0 30px 0 0;">
-											<a href="#" target="_blank" style="">
-												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/app-store.png?raw=true" alt="App Store" width="220">
+										<td class="mobile-main-btn-padding" style="padding: 0 30px 0 0;">
+											<a href="#" target="_blank" style="display: block;">
+												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/app-store.png?raw=true" alt="App Store" width="220" height="56" style="width: 100%; height: auto;">
 											</a>
 										</td>
 										<td>
-											<a href="#" target="_blank">
-												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/google-play.png?raw=true" alt="Google Play" width="220">
+											<a href="#" target="_blank" style="display: block;">
+												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/google-play.png?raw=true" alt="Google Play" width="220" height="56" style="width: 100%; height: auto;">
 											</a>
 										</td>
 									</tr>
@@ -196,8 +211,11 @@
 					<div style="width: 100%; height: 1px;background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50.49%, rgba(255, 255, 255, 0) 100%);"></div>
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 60px 30px;">
 						<tr>
-							<td>
+							<!-- <td>
 								<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">Dear Formacar Action Community!</h2>
+							</td> -->
+							<td>
+								<img src="img/title-dear.png" alt="DEAR FORMACAR ACTION COMMUNITY!" width="540" height="56" style="width:100%;height:auto;">
 							</td>
 						</tr>
 						<tr>
@@ -220,12 +238,15 @@
 					<div style="width: 100%; height: 1px;background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50.49%, rgba(255, 255, 255, 0) 100%);"></div>
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 60px 0 30px;">
 						<tr>
-							<td style="padding: 0 30px">
+							<!-- <td style="padding: 0 30px">
 								<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">
 									The new Formacar Action
 									<br>
 									Pre-Beta is already available and open for everyone to play!
 								</h2>
+							</td> -->
+							<td style="padding: 0 30px">
+								<img src="img/title-new-version.png" alt="THE NEW FORMACAR ACTION PRE-BETA IS ALREADY AVAILABLE AND OPEN FOR EVERYONE TO PLAY!" width="540" height="92" style="width:100%;height:auto;">
 							</td>
 						</tr>
 						<tr>
@@ -265,7 +286,7 @@
 			<!-- New version img -->
 			<tr>
 				<td style="padding: 30px 0;">
-					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/new-version.png?raw=true" alt="Green car" width="600" style="width: 100%;">
+					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/new-version.png?raw=true" alt="Green car" width="600" height="360" style="width: 100%; height: auto;">
 				</td>
 			</tr>
 			<!-- End New version img -->
@@ -276,10 +297,13 @@
 					<div style="width: 100%; height: 1px;background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50.49%, rgba(255, 255, 255, 0) 100%);"></div>
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 60px 0 30px;">
 						<tr>
-							<td style="padding: 0 30px">
+							<!-- <td style="padding: 0 30px">
 								<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">
 									Revised reward system
 								</h2>
+							</td> -->
+							<td style="padding: 0 30px">
+								<img src="img/title-reward.png" alt="Revised reward system" width="540" height="20" style="width:100%;height:auto;">
 							</td>
 						</tr>
 						<tr>
@@ -299,7 +323,7 @@
 			<!-- New Reward img -->
 			<tr>
 				<td style="padding: 30px 0;">
-					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/reward.png?raw=true" alt="Green car" width="600" style="width: 100%;">
+					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/reward.png?raw=true" alt="Coins" width="360" height="360" style="width: 100%; height: auto;">
 				</td>
 			</tr>
 			<!-- End Reward img -->
@@ -310,10 +334,13 @@
 					<div style="width: 100%; height: 1px;background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50.49%, rgba(255, 255, 255, 0) 100%);"></div>
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 60px 0 30px;">
 						<tr>
-							<td style="padding: 0 30px">
+							<!-- <td style="padding: 0 30px">
 								<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">
 									NFT Tickets and their varieties
 								</h2>
+							</td> -->
+							<td style="padding: 0 30px">
+								<img src="img/title-nft.png" alt="NFT Tickets and their varieties" width="540" height="20" style="width:100%;height:auto;">
 							</td>
 						</tr>
 						<tr>
@@ -362,7 +389,7 @@
 			<!-- NFT img -->
 			<tr>
 				<td style="padding: 30px 0;">
-					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/nft-tickets.png?raw=true" alt="Green car" width="600" style="width: 100%;">
+					<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/nft-tickets.png?raw=true" alt="NFT" width="600" height="360" style="width: 100%; height: auto;">
 				</td>
 			</tr>
 			<!-- End NFT img -->
@@ -373,10 +400,13 @@
 					<div style="width: 100%; height: 1px;background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50.49%, rgba(255, 255, 255, 0) 100%);"></div>
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="padding: 60px 0;">
 						<tr>
-							<td style="padding: 0 30px">
+							<!-- <td style="padding: 0 30px">
 								<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">
 									Formacar Action Beta and Alpha Testing Rewards
 								</h2>
+							</td> -->
+							<td style="padding: 0 30px">
+								<img src="img/title-progress.png" alt="Formacar Action Beta and Alpha Testing Rewards" width="540" height="20" style="width:100%;height:auto;">
 							</td>
 						</tr>
 						<tr>
@@ -388,7 +418,7 @@
 						</tr>
 						<tr>
 							<td style="padding: 30px 0 0 0;text-align: center;">
-								<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/progress.png?raw=true" alt="" width="458">
+								<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/progress.png?raw=true" alt="Progress bar" width="458" height="90" style="width: 100%; height: auto;">
 							</td>
 						</tr>
 						<tr>
@@ -425,13 +455,16 @@
 				<td style="padding: 0 0 30px;background: url(https://github.com/aau8/formacar-html-mail/blob/main/img/footer-bg.png?raw=true);background-repeat: no-repeat;background-position: center;background-size: cover;">
 					<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 						<tr>
-							<td style="padding: 30px">
+							<td style="padding: 60px 30px 30px">
 								<table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 									<tr>
-										<td style="padding: 0 30px">
+										<!-- <td style="padding: 0 30px">
 											<h2 style="Margin: 0;text-align: center;font-size: 28px;font-weight: 700;text-transform: uppercase;color: #1CB7FB;line-height: 1.2;">
 												Follow
 											</h2>
+										</td> -->
+										<td>
+											<img src="img/title-follow.png" alt="Follow" width="540" height="20" style="width:100%;height:auto;">
 										</td>
 									</tr>
 									<tr>
@@ -447,22 +480,22 @@
 												<tr>
 													<td style="padding: 0 10px 0 0;">
 														<a href="#" target="_blank">
-															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/instagram.png?raw=true" alt="instagram" width="56">
+															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/instagram.png?raw=true" alt="instagram" width="56" height="56">
 														</a>
 													</td>
 													<td style="padding: 0 10px 0 0;">
 														<a href="#" target="_blank">
-															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/telegram.png?raw=true" alt="telegram" width="56">
+															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/telegram.png?raw=true" alt="telegram" width="56" height="56">
 														</a>
 													</td>
 													<td style="padding: 0 10px 0 0;">
 														<a href="#" target="_blank">
-															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/discord.png?raw=true" alt="discord" width="56">
+															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/discord.png?raw=true" alt="discord" width="56" height="56">
 														</a>
 													</td>
 													<td>
 														<a href="#" target="_blank">
-															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/twitter.png?raw=true" alt="twitter" width="56">
+															<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/twitter.png?raw=true" alt="twitter" width="56" height="56">
 														</a>
 													</td>
 												</tr>
@@ -483,11 +516,11 @@
 									<tr>
 										<td>
 											<a href="#" target="_blank">
-												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/logo-footer.png?raw=true" alt="Logo" width="218">
+												<img src="https://github.com/aau8/formacar-html-mail/blob/main/img/logo-footer.png?raw=true" alt="Logo" width="218" height="40">
 											</a>
 										</td>
 										<td style="text-align: right;">
-											<a href="#" target="_blank">Unsubscribe</a>
+											<a href="#" target="_blank" style="color: #fff; text-decoration: none;">Unsubscribe</a>
 										</td>
 									</tr>
 								</table>
